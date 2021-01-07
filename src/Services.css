@@ -1,0 +1,20 @@
+.Services{
+    display: block;
+    padding: 60px 0;
+}
+.Services > h1{
+
+    font-size: 36px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.92);
+    margin-bottom: 5px;
+    display: block;
+}
+.Services >p{
+    font-size: 18px;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.92);
+    opacity: 0.5;
+    display: block;
+    line-height: 20px;
+}

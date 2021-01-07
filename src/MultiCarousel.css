@@ -1,0 +1,51 @@
+.MultiCarousel{
+    margin-top: -50px;
+    position: relative;
+    z-index: 1;
+    width: 80%;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    box-shadow: 0 0 8px 0 rgb(0, 0, 0,0.25);
+}
+.MultiCarousel__slide{
+    display: flex !important;
+    border: solid 1px lightgray;
+    flex-direction: row;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    height: 76px;
+    padding: 10px;
+
+}
+.MultiCarousel__slideIcon{
+    flex:0.2;
+    /* padding-right: 10px; */
+}
+.MultiCarousel__slideIcon >img{
+    object-fit: contain;
+    height: 40px;
+    margin: auto;
+}
+.MultiCarousel__slideInfo{
+    flex:0.8;
+    max-height: 100%;
+}
+.MultiCarousel__Heading{
+    color: #337ab7;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 0;
+    -webkit-transition: all 0.15s ease;
+    transition: all 0.15s ease;
+}
+.MultiCarousel__desc {
+    color: #4A4A4A;
+    font-weight: 300;
+    font-size: 14px;
+}
+.MultiCarousel__slide:hover .MultiCarousel__Heading{
+color: #8EC44A;
+}

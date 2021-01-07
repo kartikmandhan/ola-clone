@@ -1,0 +1,42 @@
+.Banner{
+    height: 675px;
+    position: relative;
+    text-align: center;
+    background-image: url(https://cms-web.olacabs.com/00000000383.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+.Banner__overlay{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 200px;
+    opacity: 0.5;
+    background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0)), to(#000000));
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, #000000 100%);
+    z-index: 3;
+    pointer-events: none;
+}
+.Banner__introText{
+    color: white;
+    padding-top: 20px;
+}
+.Banner__LineOne{
+    margin-top: 40px;
+    font-size: 38px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    padding: 0 20px;
+    position: relative;
+    z-index: 5;
+}
+.Banner__LineTwo{
+    font-size: 20px;
+    font-weight: 300;
+    padding: 0 20px;
+    position: relative;
+    z-index: 5;
+}

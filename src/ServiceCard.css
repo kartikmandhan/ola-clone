@@ -1,0 +1,43 @@
+.ServiceCard{
+    margin-right:  30px;
+    border: none !important;
+    background: #FBFBFC;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2);
+    letter-spacing: 0.3px;
+    display: inline-block;
+}
+.ServiceCard__benifits{
+    display: flex;
+    padding-top: 20px;
+    align-self: flex-end;
+    justify-content: space-evenly;
+}
+.ServiceCard__Icon{
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 300;
+    color: #4A4A4A;
+}
+.ServiceCard__Icon >img{
+    height: 26px;
+    padding-right: 15px;
+}
+.IconInfo{
+    display: inline-block;
+    vertical-align: middle;
+    color: #666666;
+    font-size: 14px;
+    line-height: 18px;
+}
+.ServiceCard__Image{
+    object-fit: contain;
+}
+.card-title{
+    text-transform: uppercase;
+}
